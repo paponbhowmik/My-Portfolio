@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- AOS animation library -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet"/>
+
+    <!-- FontAwesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <!-- Boxicons CDN -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">            
+</head>
+<body>
+
+    <!-- Hamburger menu button for mobile -->
+    <button id="menu-toggle" aria-label="Toggle menu" title="Toggle menu">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <aside id="sidebar" aria-label="Sidebar navigation" data-aos="fade-right" data-aos-duration="1000">
+        <img src="image/cv2.png" alt="Profile Picture" id="profile-pic" />
+        <nav>
+            <a href="#hero" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="social-icons" aria-label="Social media links">
+          <a href="https://Wa.me/+8801927507468" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/papon_bhowmik?igsh=dW9tZ3l1eGZqYmYz&utm_source=ig_contact_invite" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/papon-bhowmik-06b27b25a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </aside>
+
+    <main id="content" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" tabindex="-1">
+        <!-- Hero Section -->
+        <section id="hero" class="mb-5">
+            <h2 id="typed-text"></h2>
+            <p>Front-End Developer with Backend & Design Skills</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h3 class="section-title" data-aos="fade-up">About Me</h3>
+            <p data-aos="fade-up" data-aos-delay="100">
+                My journey in tech started in 2020, not in a classroom, but from simple curiosity. I was just searching online, wondering how websites are made. That small interest slowly grew into something bigger — I started learning HTML and CSS on my own. In 2021, I joined a front-end development course. There, I learned how to build websites using HTML, CSS, Bootstrap, jQuery, and some JavaScript. I also discovered something new — UI/UX design with Figma. That’s when I realized I don’t just enjoy coding; I also love creating beautiful and user-friendly designs. Even though I was learning and practicing, finding work wasn’t easy. But I didn’t stop. In 2022, I started learning Python and Django because I wanted to build complete websites — both front-end and back-end. Now, I’m studying at university in the MCT (Multimedia and Creative Technologies) department. I’m expected to graduate in 2028. Along the way, I also learned Photoshop and Illustrator to improve my design skills. I believe learning never stops. Every project I work on teaches me something new. I love turning ideas into real, working websites — mixing both design and code to build things that are useful and meaningful. This is more than a career for me — it’s a journey I truly enjoy.
+            </p>
+            <ul data-aos="fade-up" data-aos-delay="200">
+                <li>Started from curiosity, growing through passion</li>
+                <li>Front-end developer with a designer’s eye</li>
+                <li>Fluent in code and color</li>
+                <li>Always learning & exploring!</li>
+                <li>MCT student with a creative mindset</li>
+                <li>Self-taught, self-driven, solution-focused</li>
+                <li>Ready to build, eager to contribute</li>
+            </ul>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h3 class="section-title" data-aos="fade-up">Education</h3>
+            <div class="edu-item" data-aos="fade-up" data-aos-delay="200">
+                <h5> Bachelor of Science in Multimedia and Creative Technology (MCT)</h5>
+                <span>Daffodil International University</span>
+                <p>2025 – 2028 (Expected)</p>
+                <p>Currently a running student in the MCT department</p>
+            </div>
+            <div class="edu-item" data-aos="fade-up" data-aos-delay="100">
+                <h5>Secondary School Certificate (SSC)</h5>
+                <span>Brahmanbaria Government High School</span>
+                <p>Passed in 2020</p>
+                <p> GPA: 4.61 (Out of 5.00)</p>
+            </div>
+            <div class="edu-item" data-aos="fade-up" data-aos-delay="100">
+                <h5> Higher Secondary Certificate (HSC)</h5>
+                <span>Bangladesh Gas Field School & College</span>
+                <p>Passed in 2024</p>
+                <p> GPA: 3.61 (Out of 5.00)</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+       <section id="skills">
+            <div class="container">
+            <h3 class="section-title" data-aos="fade-up">My Skills</h3>
+        
+              <!-- Frontend -->
+              <div class="skill-group">
+                <h3 class="group-title">Frontend Development</h3>
+                <div class="skills-grid">
+                  <div class="skill-card"><div class="card-inner"><i class="bx bxl-html5"></i><span>HTML</span></div></div>
+                  <div class="skill-card"><div class="card-inner"><i class="bx bxl-css3"></i><span>CSS</span></div></div>
+                  <div class="skill-card"><div class="card-inner"><i class="bx bxl-bootstrap"></i><span>Bootstrap</span></div></div>
+                  <div class="skill-card"><div class="card-inner"><i class="bx bxl-jquery"></i><span>jQuery</span></div></div>
+                  <div class="skill-card"><div class="card-inner"><i class="bx bxl-sass"></i><span>Sass</span></div></div>
+                  <div class="skill-card"><div class="card-inner"><i class="bx bxl-javascript"></i><span>JavaScript</span></div></div>
+                </div>
+              </div>
+        
+              <!-- Backend -->
+              <div class="skill-group">
+                <h3 class="group-title">Backend Development</h3>
+                <div class="skills-grid">
+                  <div class="skill-card"><div class="card-inner"><i class="bx bxl-python"></i><span>Django</span></div></div>
+                </div>
+              </div>
+        
+              <!-- Other Tools -->
+              <div class="skill-group">
+                <h3 class="group-title">Other Tools & Design</h3>
+                <div class="skills-grid">
+                  <div class="skill-card"><div class="card-inner"><i class="bx bxl-figma"></i><span>Figma</span></div></div>
+                  <div class="skill-card"><div class="card-inner"><i class="bx bxl-adobe"></i><span>Photoshop</span></div></div>
+                  <div class="skill-card"><div class="card-inner"><i class="bx bxl-adobe"></i><span>Illustrator</span></div></div>
+                </div>
+              </div>
+        
+            </div>
+        </section>
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="py-5">
+            <div class="container">
+              <h3 class="section-title">My Portfolio</h3>
+        
+              <div class="d-flex justify-content-center gap-3 mb-5">
+                <button id="btn-projects" class="btn btn-toggle active">Web Projects</button>
+                <button id="btn-designs" class="btn btn-toggle">UI/UX Designs</button>
+              </div>
+        
+              <!-- Web Projects -->
+              <div id="projects-section">
+                <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-card h-100">
+                          <h5>Chiklee music Website</h5>
+                          <a href="https://chikleemusic.com/" target="_blank" class="btn btn-outline-light mt-2">Visit Site</a>
+                        </div>
+                    </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-card h-100">
+                      <h5>University Demo Website</h5>
+                      <a href="https://paponbhowmik.github.io/protfolio-website/" target="_blank" class="btn btn-outline-light mt-2">Visit Site</a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-card h-100">
+                      <h5>Food Demo Website</h5>
+                      <a href="https://paponbhowmik.github.io/Food/" target="_blank" class="btn btn-outline-light mt-2">Visit Site</a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-card h-100">
+                      <h5>Mobile Demo Website</h5>
+                      <a href="https://paponbhowmik.github.io/mobile/" target="_blank" class="btn btn-outline-light mt-2">Visit Site</a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-card h-100">
+                      <h5>Music Demo Website</h5>
+                      <a href="https://paponbhowmik.github.io/chiklee-music/" target="_blank" class="btn btn-outline-light mt-2">Visit Site</a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-card h-100">
+                      <h5>Hunt Demo Website</h5>
+                      <a href="https://paponbhowmik.github.io/hunt-project/" target="_blank" class="btn btn-outline-light mt-2">Visit Site</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- UI/UX Designs -->
+              <div id="designs-section" style="display: none;">
+                <div class="row g-4">
+                  <!-- Image 1 -->
+                  <div class="col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                      <a href="image/project1.jpg" data-lightbox="ui-designs" data-title="UI Design 1">
+                        <img src="image/project1.jpg" class="gallery-img" alt="UI Design 1">
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Image  -->
+                  <div class="col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                      <a href="image/project2.jpg" data-lightbox="ui-designs" data-title="UI Design 1">
+                        <img src="image/project2.jpg" class="gallery-img" alt="UI Design 1">
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Image 3 -->
+                  <div class="col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                      <a href="image/project3.jpg" data-lightbox="ui-designs" data-title="UI Design 1">
+                        <img src="image/project3.jpg" class="gallery-img" alt="UI Design 1">
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Image 4 -->
+                  <div class="col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                      <a href="image/project4.jpg" data-lightbox="ui-designs" data-title="UI Design 1">
+                        <img src="image/project4.jpg" class="gallery-img" alt="UI Design 1">
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Image 5 -->
+                  <div class="col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                      <a href="image/project5.jpg" data-lightbox="ui-designs" data-title="UI Design 1">
+                        <img src="image/project5.jpg" class="gallery-img" alt="UI Design 1">
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Image 6 -->
+                  <div class="col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                      <a href="image/project6.jpg" data-lightbox="ui-designs" data-title="UI Design 1">
+                        <img src="image/project6.jpg" class="gallery-img" alt="UI Design 1">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h3 class="section-title" data-aos="fade-up">Contact Me</h3>
+            <p data-aos="fade-up" data-aos-delay="100">
+                Feel free to reach out if you want to collaborate on a project or just want to say hi.
+            </p>
+            <!-- <form action="https://api.web3forms.com/submit" method="POST" method="post" data-aos="fade-up" data-aos-delay="200" novalidate>
+              <input type="hidden" name="access_key" value="6720b2a9-91a1-4771-848c-d63614b94c8c">
+                <div class=" form-group mb-3">
+                    <label for="name" class="form-label">Name<span style="color:#FF6B6B;"> *</span></label>
+                    <input type="text" class="form-control" id="name" required placeholder="Your full name" />
+                    <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class=" form-group mb-3">
+                    <label for="email" class="form-label">Email<span style="color:#FF6B6B;"> *</span></label>
+                    <input type="email" class="form-control" id="email" required placeholder="you@example.com" />
+                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+                <div class=" form-group mb-3">
+                    <label for="message" class="form-label">Message<span style="color:#FF6B6B;"> *</span></label>
+                    <textarea class="form-control" rows="5" id="message" required placeholder="Write your message here..."></textarea>
+                    <div class="invalid-feedback">Please enter a message.</div>
+                </div>
+                <button type="submit">Send Message</button>
+            </form> -->
+        
+            <form action="https://api.web3forms.com/submit" method="POST" method="post" data-aos="fade-up" data-aos-delay="200" novalidate>
+              <input type="hidden" name="access_key" value="6720b2a9-91a1-4771-848c-d63614b94c8c">
+              <div class="form-group mb-3">
+                  <label for="name" class="form-label">Name<span style="color:#FF6B6B;"> *</span> </label>
+                  <input type="text" class="form-control" id="name" name="name" required> 
+              </div>
+              <div class="form-group mb-3">
+                  <label for="email" class="form-label">Email<span style="color:#FF6B6B;"> *</span> </label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="form-group mb-3">
+                  <label for="message" class="form-label">Your message<span style="color:#FF6B6B;"> *</span></label>
+                  <textarea id="message" class="form-control" name="message" rows="4" required></textarea>
+              </div>
+              <button class="contact-button" type="submit">Send message <i class="fas fa-paper-plane"></i></button>
+          </form>
+          </section>
+
+        <!-- Footer section -->
+        <footer class="footer">
+          <div class="container">
+            <div class="footer-row">
+              <div class="footer-col about">
+                <h5>About Me</h5>
+                <p>Passionate Front-End Developer with Backend & Design Skills.</p>
+              </div>
+              <div class="footer-col links">
+                <h5>Quick Links</h5>
+                <ul>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="#about">About</a></li>
+                </ul>
+              </div>
+              <div class="footer-col social">
+                <h5>Connect with Me</h5>
+                <div id="social-icons" aria-label="Social media links">
+                  <a href="https://Wa.me/+8801927507468" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                  <a href="https://www.instagram.com/papon_bhowmik?igsh=dW9tZ3l1eGZqYmYz&utm_source=ig_contact_invite" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/papon-bhowmik-06b27b25a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              </div>
+              </div>
+            </div>
+            <hr>
+            <p class="copyright">Developed By Papon Bhowmik. All rights reserved.</p>
+          </div>
+        </footer>
+    </main>
+
+    <!-- Bootstrap 5 JS Bundle (Popper.js included) -->
+    <!-- AOS Animation JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/custome.js"></script>
+</body>
+</html>
+
+

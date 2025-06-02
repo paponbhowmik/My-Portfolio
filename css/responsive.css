@@ -1,0 +1,115 @@
+@media (min-width: 320px) and (max-width: 575px){
+    #hero p {
+      font-size: 15px;
+    }
+    #hero h2 {
+      font-size: 22px;
+      white-space: normal;
+      margin-bottom: 0rem;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767px){
+    #hero h2 {
+      font-size: 35px;
+    }
+  }
+  @media (max-width: 992px) {
+      #sidebar {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 200px;
+          height: 100vh;
+          padding-top: 3rem;
+          transform: translateX(-100%);
+          box-shadow: 2px 0 7px rgba(0,0,0,0.7);
+      }
+      #sidebar.show {
+          transform: translateX(0);
+      }
+      #content {
+          margin-left: 0;
+          padding: 1rem 1.5rem 3rem;
+          max-width: 100%;
+      }
+      /* Hamburger toggle button */
+      #menu-toggle {
+          position: fixed;
+          top: 15px;
+          left: 15px;
+          z-index: 1100;
+          font-size: 1.8rem;
+          color: #48a9e6;
+          background: transparent;
+          border: none;
+          cursor: pointer;
+          display: block;
+      }
+  }
+  @media (min-width: 993px) {
+      #menu-toggle {
+          display: none;
+      }
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+
+  #sidebar {
+    width: 220px;
+    padding: 15px;
+  }
+
+  #content {
+    margin-left: 240px;
+    padding: 30px 20px;
+  }
+
+
+  #sidebar img#profile-pic {
+    width: 100px;
+  }
+
+
+  #sidebar nav a {
+    font-size: 0.95rem;
+  }
+
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+
+  .skill-card {
+    width: 100px;
+    padding: 10px;
+  }
+
+  .card-inner i {
+    font-size: 1.6rem;
+  }
+
+  .card-inner span {
+    font-size: 0.85rem;
+  }
+
+
+  #portfolio .portfolio-card {
+    padding: 15px;
+  }
+
+  .gallery-img {
+    border-radius: 8px;
+  }
+
+
+  #contact {
+    padding: 30px 15px;
+  }
+
+
+  .btn-toggle,
+  .contact-button {
+    font-size: 0.9rem;
+    padding: 8px 18px;
+  }
+}
